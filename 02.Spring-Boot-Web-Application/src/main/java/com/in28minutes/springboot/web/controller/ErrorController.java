@@ -17,7 +17,7 @@ public class ErrorController {
 
 		mv.addObject("exception", ex.getLocalizedMessage());
 		mv.addObject("url", request.getRequestURL());
-		
+		///i have made changeeg
 		mv.setViewName("error");
 		return mv;
 	}
